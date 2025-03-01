@@ -10,11 +10,11 @@ const firebaseConfig = {
     appId: "1:611737448857:web:6f23f2369b53a6a618e308"
 };
 
-// Initialize Firebase and get Auth instance
+
 initializeApp(firebaseConfig);
 const auth = getAuth();
 
-// Make sure auth is initialized
+
 if (!auth) {
     throw new Error('Firebase Auth not initialized!');
 }
